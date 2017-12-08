@@ -5,19 +5,19 @@
 <div class="wrapper">
     <div class="hero">
         <div class="slack-logo"></div>
-        <h3> #{{ team_name }} on Slack</h3>
+        <h3> #{{ team_name }} no Slack</h3>
     </div>
     <div class="form-container">
-    <div class="u-txtCenter">Enter your email below to get an invite.</div>
+    <div class="u-txtCenter">Informe seu e-mail abaixo para receber o convite.</div>
         <form method="POST" action="/" id="invite-form">
             {{ form.hidden_tag() }}
-            {{ form.email(size=20, placeholder="Email Address") }}
-            <div id="submit-button"><button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            {{ form.email(size=20, placeholder="E-mail") }}
+            <div id="submit-button"><button class="btn waves-effect waves-light" type="submit" name="action">Enviar
                 <i class="material-icons right">send</i></div>
             </button>
         </form>
     </div>
-    <h5 class="existing-user-link">Have an account? <a href="https://{{ team_id }}.slack.com">Sign in here.</a></h5>
+    <h5 class="existing-user-link">Tem uma conta? <a href="https://{{ team_id }}.slack.com">Entre aqui.</a></h5>
     <div class="form-container card-panel hidden" id="response-div">
         <p id="response-text">.</p>
     </div>
