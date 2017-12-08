@@ -39,8 +39,7 @@ Check [Flask Deployment](http://flask.pocoo.org/docs/0.10/deploying) se você qu
 
 # Screenshots 
 
-![landing](screenshots/landing.png)
-![success](screenshots/success.png)
+![landing](screenshots/form.png)
 
 # Desenvolvimento
 
