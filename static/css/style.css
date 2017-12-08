@@ -32,7 +32,7 @@ body{
 	font-weight: inherit;
 }
 .hero h3,.existing-user-link a{
-	color: #e8a620;
+	color: #52658B;
 }
 .slack-logo{
 	background: url("../img/slack-logo.svg") no-repeat center;
@@ -50,10 +50,10 @@ body{
 	margin: 50px auto 0;
 }
 .btn{
-	background-color: #e8a620
+	background-color: #52658B
 }
 .btn:hover{
-	background-color: #C08A1C
+	background-color: rgb(43, 70, 102)
 }
 .existing-user-link{
 	text-align: center;
