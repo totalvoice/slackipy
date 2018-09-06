@@ -54,6 +54,9 @@ Para instalar localmente, clone o repositório, instale as dependências e rode 
 
 A aplicação estará rodando em [localhost:8051](http://localhost:8051)
 
+# Licença
+https://github.com/totalvoice/slackipy/blob/master/LICENSE
+
 # Creditos
 Este reposítório é um Fork de [slackpy](https://github.com/avinassh/slackipy)
 Desenvolvido por [avinassh](https://github.com/avinassh)
